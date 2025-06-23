@@ -1,4 +1,7 @@
 package com.utad.dummyjson.model
+
+import com.google.gson.annotations.SerializedName
+
 @Parcelize
 data class DatosReceta()
 
