@@ -1,12 +1,13 @@
 package com.utad.dummyjson.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class DatosReceta()
+data class DatosReceta(
 
-
-    @SerializedName("id") val id: Int,
+@SerializedName("id") val id: Int,
     @SerializedName("name") val name: String,
     @SerializedName("ingredients") val ingredients: List<String>,
     @SerializedName("instructions") val instructions: List<String>,
