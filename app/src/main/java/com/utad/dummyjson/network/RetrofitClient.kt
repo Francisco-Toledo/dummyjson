@@ -6,7 +6,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    // Puedes cambiar la URL base fácilmente desde aquí
     private const val BASE_URL = "https://dummyjson.com/recipes"
 
     val api: RecetaApiService by lazy {
