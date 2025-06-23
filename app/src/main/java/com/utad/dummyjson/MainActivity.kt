@@ -7,12 +7,16 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.utad.dummyjson.R
+
 import com.utad.dummyjson.databinding.ActivityMainBinding
 import com.utad.dummyjson.network.RetrofitClient
 import com.utad.dummyjson.repository.RecetaRepository
 import com.utad.dummyjson.view.RecetaAdapter
 import com.utad.dummyjson.viewmodel.RecetaViewModel
 import com.utad.dummyjson.viewmodel.RecetaViewModelFactory
+import com.utad.dummyjson.view.DetailActivity
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

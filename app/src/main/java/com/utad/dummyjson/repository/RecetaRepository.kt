@@ -2,7 +2,7 @@ package com.utad.dummyjson.repository
 import com.utad.dummyjson.model.Receta
 import com.utad.dummyjson.model.RecetaApiService
 
-class RecetaRepository {
+class RecetaRepository (
     private val api: RecetaApiService
     ) {
 
@@ -13,4 +13,3 @@ class RecetaRepository {
             api.getRecipeById(id)
     }
 
-}
